@@ -4,6 +4,35 @@ This repository contains my personal Nix configurations for Android (`nix-on-dro
 
 The configuration is modular, allowing different package sets to be composed for different use cases.
 
+## Getting Started
+
+This section provides a quick guide to setting up and using this Nix configuration project.
+
+### Prerequisites
+
+*   **Nix Installation:** Ensure you have Nix installed on your system. If not, follow the official Nix installation guide.
+*   **Nix Flakes Enabled:** Make sure Nix flakes are enabled. You can enable them by adding `experimental-features = nix-command flakes` to your `nix.conf` file (usually located at `/etc/nix/nix.conf` or `~/.config/nix/nix.conf`).
+*   **Rust Toolchain (Nix-managed):** The project's Rust components are managed via Nix. Ensure you are in a `nix-shell` environment that provides the necessary Rust toolchain (e.g., by running `nix-shell` in the project root).
+
+### 1. Clone the Repository
+
+If you haven't already, clone this repository to your local machine:
+
+```bash
+git clone https://github.com/jmikedupont2/pick-up-nix.git
+cd pick-up-nix
+```
+
+### 2. Apply the Nix-on-Droid Configuration
+
+To apply the Nix configuration to your Android device (via Nix-on-Droid), or to other Linux systems, refer to the detailed instructions in the "Building Configurations" section below.
+
+For Nix-on-Droid, the primary command you'll use is:
+
+```bash
+nix-on-droid switch --flake .#android
+```
+
 ## Repository Structure
 
 -   `flake.nix`: The heart of the configuration. It defines all inputs, manages overlays, and exposes the final system and home configurations.
@@ -14,7 +43,8 @@ The configuration is modular, allowing different package sets to be composed for
 -   `configurations/`: Contains top-level modules imported by the flake.
     -   `android.nix`: Base configuration for the `nix-on-droid` mobile environment.
 -   `.config/home-manager/`: Contains shared user-level settings managed by Home Manager.
--   `shell.nix`: A standalone, non-flake development shell for quick tasks.
+-   `shell.nix`: A standalone, non-flake development shell for quick tasks, now managing the Rust toolchain.
+-   `pick-up-nix-cli/`: Contains the Rust-based CLI application, including the `tracenix` command.
 
 ## Usage
 
@@ -44,6 +74,24 @@ home-manager switch --flake .#linux-dev
 ```
 *Note: This assumes your local username is `user`. You may need to adjust `flake.nix` if your username is different.*
 
+### Using `tracenix`
+
+The `tracenix` command is a Rust-based CLI tool for tracing Nix commands. It's part of the `pick-up-nix-cli` package.
+
+To run `tracenix`, ensure you are in a `nix-shell` environment (by running `nix-shell` in the project root) and then execute:
+
+```bash
+cargo run -p pick-up-nix-cli -- tracenix -- <NIX_COMMAND> [NIX_ARGUMENTS...]
+```
+
+**Example:** Trace `nix --version`
+
+```bash
+cargo run -p pick-up-nix-cli -- tracenix -- --version
+```
+
+For more details, refer to `docs/user_guide/tracenix_user_guide.md`.
+
 ## Package Management
 
 Packages are managed by adding them to the appropriate module in the `home/` directory:
@@ -66,5 +114,52 @@ All our development steps are logged using `figlet` on the stream and written to
 Follow us on other platforms:
 
 *   TikTok: [https://www.tiktok.com/@solfunmeme](https://www.tiktok.com/@solfunmeme)
-*   Lemon8: Check out solfunmeme’s posts on Lemon8! [https://v.lemon8-app.com/al/OgsMsbfTMx](https://v.lemon8-app.com/al/OgsMsbfTMx)
+*   Lemon8: Check out solfunmeme’s posts on Lemon8! [https://v.lemon8-app.com/al/OgsMsbfTMx](https://v.tiktok.com/@solfunmeme)
 *   Linktree: [https://linktr.ee/h4km](https://linktr.ee/h4km)
+
+## Building and Using `asciinema` Flake
+
+This project includes a vendored `asciinema` flake. You can build it and use the resulting binary for recording terminal sessions.
+
+To build the `asciinema` flake:
+
+```bash
+nix build ./vendor/external/asciinema
+```
+
+After a successful build, a symlink named `result` will be created in the root of this repository, pointing to the built `asciinema` package in the Nix store.
+
+You can then use the `asciinema` executable located at `./result/bin/asciinema`. For example:
+
+```bash
+./result/bin/asciinema rec my_session.cast
+```
+
+
+## Task Status
+
+This section provides an overview of the current status of key tasks within the project.
+
+*   **Task 001: Initial Setup** - Completed
+*   **Task 002: Core Feature Development** - In Progress
+*   **Task 003: Documentation Review** - Pending
+
+# emacs
+
+cd source/github/meta-introspector/git-submodules-rs-nix/.emacs.d/nix-magit/
+nix run .#nix-magit
+
+# current task
+
+~/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/runprompt2.sh
+
+tasks in 
+~/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/prompts/
+
+
+# rust 
+cd ~/nix2/vendor/external/rust/src/tools/nix-dev-shell
+nix develop
+
+cd ~/nix2/
+~/pick-up-nix2/gemini_cli_recent.sh

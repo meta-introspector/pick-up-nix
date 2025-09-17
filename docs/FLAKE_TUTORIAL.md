@@ -71,3 +71,26 @@ To fix this, we did two things:
 2.  **Ran `nix flake update`:** We ran this command to update the `flake.lock` file to match the new `flake.nix` file. This command fetches the latest commit from the `master` branch of `nixpkgs` and records it in the `flake.lock` file.
 
 By doing this, we are now using the latest version of `nixpkgs`, which includes the `gemini-cli` package. The next step is to run `nix-on-droid switch` again, which should now succeed.
+
+## 6. Adding Diagnostic Tools to the Android Flake
+
+To enhance our debugging capabilities on the Android system, we have added a suite of diagnostic tools to the Nix flake configuration. These tools are crucial for troubleshooting system issues, analyzing process behavior, and monitoring resource usage.
+
+### 6.1 Why Diagnostic Tools?
+
+In complex systems, especially after unexpected events like crashes, diagnostic tools provide invaluable insights into the system's state. They allow us to:
+*   **Trace System Calls:** Understand how processes interact with the kernel (`strace`).
+*   **Monitor Processes:** View running processes, their resource consumption, and system load (`top`, `htop`, `procps`).
+*   **Trace Library Calls:** Analyze dynamic library calls made by processes (`ltrace`).
+*   **Monitor I/O and Network:** Observe disk I/O activity (`iotop`) and network traffic (`iftop`, `nettools`).
+
+### 6.2 How They Were Added
+
+These tools were added to the `environment.packages` list within the `configurations/android.nix` file. This ensures that they are part of the Android system's environment when built with Nix.
+
+Example of packages added: `strace`, `ltrace`, `htop`, `iotop`, `iftop`, `nettools`, `procps`.
+
+### 6.3 Applying the Changes
+
+After modifying the `configurations/android.nix` file, you need to rebuild your Nix-on-Droid configuration for these changes to take effect. This typically involves running the appropriate `nix-on-droid` command to apply the updated flake.
+

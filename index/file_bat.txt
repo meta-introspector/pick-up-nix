@@ -1,0 +1,27 @@
+./nixpacks/examples/java-gradle-8-kotlin/gradlew.bat
+./nixpacks/examples/java-gradle-8/gradlew.bat
+./nixpacks/examples/java-gradle-hello-world/gradlew.bat
+./nixpacks/examples/java-spring-boot-1/gradlew.bat
+./nixpacks/examples/java-spring-boot-2/gradlew.bat
+./nixpacks/examples/java-spring-boot-3/gradlew.bat
+./source/github/meta-introspector/git-submodule-tools-rs/vendor/meta-introspector/meta-meme/docs/make.bat
+./source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/Packages/Batch File/tests/syntax_test_batch_file.bat
+./vendor/external/bitchat-solana-zos-solfunmeme/gradlew.bat
+./vendor/external/meta-meme/docs/make.bat
+./vendor/external/rust/src/tools/miri/miri.bat
+./vendor/external/rust/src/tools/rustfmt/ci/build_and_test.bat
+./vendor/external/rust/tests/run-make/long-linker-command-lines-cmd-exe/foo.bat
+./vendor/external/rust/tests/ui/std/windows-bat-args1.bat
+./vendor/external/rust/tests/ui/std/windows-bat-args2.bat
+./vendor/external/rust/tests/ui/std/windows-bat-args3.bat
+./vendor/nix-on-droid/tests/on-device/config-android-integration.bats
+./vendor/nix-on-droid/tests/on-device/config-class.bats
+./vendor/nix-on-droid/tests/on-device/config-default.bats
+./vendor/nix-on-droid/tests/on-device/config-flake-h-m.bats
+./vendor/nix-on-droid/tests/on-device/config-flake-hosts.bats
+./vendor/nix-on-droid/tests/on-device/config-flake.bats
+./vendor/nix-on-droid/tests/on-device/config-h-m.bats
+./vendor/nix-on-droid/tests/on-device/config-term-colors.bats
+./vendor/nix-on-droid/tests/on-device/gnumake.bats
+./vendor/nix-on-droid/tests/on-device/hello.bats
+./vendor/ebpf/rbpf/mk/appveyor.bat

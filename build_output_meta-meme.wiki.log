@@ -1,0 +1,3 @@
+warning: Git tree '/data/data/com.termux.nix/files/home/pick-up-nix2' is dirty
+warning: input 'rust-toolchain' has an override for a non-existent input 'nixpkgs'
+error: flake 'git+file:///data/data/com.termux.nix/files/home/pick-up-nix2' does not provide attribute 'packages.aarch64-linux.meta-meme.wiki', 'legacyPackages.aarch64-linux.meta-meme.wiki' or 'meta-meme.wiki'

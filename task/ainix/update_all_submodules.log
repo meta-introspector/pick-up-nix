@@ -1,0 +1,56 @@
++ TIMEOUT_SECONDS=300
++ trap handle_timeout SIGINT SIGTERM
++ TIMEOUT_PID=574
++ PROJECT_ROOT=/data/data/com.termux.nix/files/home/pick-up-nix2
++ cd /data/data/com.termux.nix/files/home/pick-up-nix2
++ sleep 300
++ echo 'Updating all submodules...'
+Updating all submodules...
++ git submodule update --init --recursive
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodules-rs-nix/qa/incidents/CRQ-003-incident'...
+remote: Not Found
+fatal: repository 'https://github.com/meta-introspector/git-submodules-rs-nix.git/qa/incidents/CRQ-003-incident/' not found
+fatal: clone of 'https://github.com/meta-introspector/git-submodules-rs-nix.git/qa/incidents/CRQ-003-incident' into submodule path '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodules-rs-nix/qa/incidents/CRQ-003-incident' failed
+Failed to clone 'qa/incidents/CRQ-003-incident'. Retry scheduled
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodules-rs-nix/qa/incidents/CRQ-004-incident'...
+remote: Not Found
+fatal: repository 'https://github.com/meta-introspector/git-submodules-rs-nix.git/qa/incidents/CRQ-004-incident/' not found
+fatal: clone of 'https://github.com/meta-introspector/git-submodules-rs-nix.git/qa/incidents/CRQ-004-incident' into submodule path '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodules-rs-nix/qa/incidents/CRQ-004-incident' failed
+Failed to clone 'qa/incidents/CRQ-004-incident'. Retry scheduled
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodules-rs-nix/qa/incidents/CRQ-003-incident'...
+remote: Not Found
+fatal: repository 'https://github.com/meta-introspector/git-submodules-rs-nix.git/qa/incidents/CRQ-003-incident/' not found
+fatal: clone of 'https://github.com/meta-introspector/git-submodules-rs-nix.git/qa/incidents/CRQ-003-incident' into submodule path '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodules-rs-nix/qa/incidents/CRQ-003-incident' failed
+Failed to clone 'qa/incidents/CRQ-003-incident' a second time, aborting
+fatal: Failed to recurse into submodule path 'source/github/meta-introspector/git-submodules-rs-nix'
+fatal: remote error: upload-pack: not our ref 9bf022500283f06cfca18fe8220fc32b20db6a63
+fatal: Fetched in submodule path 'source/github/meta-introspector/lattice-introspector/vendor/aichat', but it did not contain 9bf022500283f06cfca18fe8220fc32b20db6a63. Direct fetching of that commit failed.
+fatal: Failed to recurse into submodule path 'source/github/meta-introspector/lattice-introspector'
++ TIMEOUT_SECONDS=300
++ trap handle_timeout SIGINT SIGTERM
++ TIMEOUT_PID=1545
++ PROJECT_ROOT=/data/data/com.termux.nix/files/home/pick-up-nix2
++ cd /data/data/com.termux.nix/files/home/pick-up-nix2
++ sleep 300
++ echo 'Updating all submodules...'
+Updating all submodules...
++ git submodule update --init --recursive
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodules-rs-nix/qa/incidents/CRQ-003-incident'...
+remote: Not Found
+fatal: repository 'https://github.com/meta-introspector/git-submodules-rs-nix.git/qa/incidents/CRQ-003-incident/' not found
+fatal: clone of 'https://github.com/meta-introspector/git-submodules-rs-nix.git/qa/incidents/CRQ-003-incident' into submodule path '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodules-rs-nix/qa/incidents/CRQ-003-incident' failed
+Failed to clone 'qa/incidents/CRQ-003-incident'. Retry scheduled
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodules-rs-nix/qa/incidents/CRQ-004-incident'...
+remote: Not Found
+fatal: repository 'https://github.com/meta-introspector/git-submodules-rs-nix.git/qa/incidents/CRQ-004-incident/' not found
+fatal: clone of 'https://github.com/meta-introspector/git-submodules-rs-nix.git/qa/incidents/CRQ-004-incident' into submodule path '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodules-rs-nix/qa/incidents/CRQ-004-incident' failed
+Failed to clone 'qa/incidents/CRQ-004-incident'. Retry scheduled
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodules-rs-nix/qa/incidents/CRQ-003-incident'...
+remote: Not Found
+fatal: repository 'https://github.com/meta-introspector/git-submodules-rs-nix.git/qa/incidents/CRQ-003-incident/' not found
+fatal: clone of 'https://github.com/meta-introspector/git-submodules-rs-nix.git/qa/incidents/CRQ-003-incident' into submodule path '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodules-rs-nix/qa/incidents/CRQ-003-incident' failed
+Failed to clone 'qa/incidents/CRQ-003-incident' a second time, aborting
+fatal: Failed to recurse into submodule path 'source/github/meta-introspector/git-submodules-rs-nix'
+fatal: remote error: upload-pack: not our ref 9bf022500283f06cfca18fe8220fc32b20db6a63
+fatal: Fetched in submodule path 'source/github/meta-introspector/lattice-introspector/vendor/aichat', but it did not contain 9bf022500283f06cfca18fe8220fc32b20db6a63. Direct fetching of that commit failed.
+fatal: Failed to recurse into submodule path 'source/github/meta-introspector/lattice-introspector'

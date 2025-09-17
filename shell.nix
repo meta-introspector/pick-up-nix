@@ -1,5 +1,5 @@
 let
-  nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-23.11";
+  nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/archive/41b48ac.tar.gz";
   pkgs = import nixpkgs { config = {}; overlays = []; };
 in
 
@@ -17,7 +17,9 @@ pkgs.mkShellNoCC {
 
       ]
     ))
-
+  rustc
+  cargo
+  direnv
+  python3
 ];
 }
-

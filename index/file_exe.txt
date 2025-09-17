@@ -1,0 +1,5 @@
+./.github/actions/cache-nix-action/deps/actions/toolkit/packages/tool-cache/scripts/externals/7zdec.exe
+./.github/actions/cache-nix-action/deps/buildjet/toolkit/packages/tool-cache/scripts/externals/7zdec.exe
+./source/github/meta-introspector/lean4/tests/bench/full-stdlib.exec.yaml
+./source/github/meta-introspector/lean4/tests/bench/speedcenter.exec.velcom.yaml
+./vendor/nixpkgs/pkgs/by-name/au/autorandr/0001-don-t-use-sys.executable.patch

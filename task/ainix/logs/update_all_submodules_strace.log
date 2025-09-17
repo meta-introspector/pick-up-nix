@@ -1,0 +1,174 @@
+execve("/data/data/com.termux.nix/files/home/.nix-profile/bin/git", ["git", "submodule", "update", "--init", "--recursive", "--force"], 0x7fee79e3f8 /* 68 vars */) = 0
+brk(NULL)                               = 0x7ab000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x79d7207000
+faccessat(AT_FDCWD, "/etc/ld-nix.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/5h0aachb52mg1ijhfyq6k7c0w2mgyzxq-zlib-1.3.1/lib/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/5h0aachb52mg1ijhfyq6k7c0w2mgyzxq-zlib-1.3.1/lib/", {st_mode=S_IFDIR|0555, st_size=3452, ...}, 0) = 0
+openat(AT_FDCWD, "/nix/store/jay0hijxnnwlin4g06zk10jan5fqr358-pcre2-10.43/lib/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0555, st_size=611872, ...}) = 0
+mmap(NULL, 721016, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_DENYWRITE, -1, 0) = 0x79d7156000
+mmap(0x79d7160000, 655480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x79d7160000
+munmap(0x79d7156000, 40960)             = 0
+munmap(0x79d7201000, 20600)             = 0
+mprotect(0x79d71ea000, 86016, PROT_NONE) = 0
+mmap(0x79d71ff000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8f000) = 0x79d71ff000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/5h0aachb52mg1ijhfyq6k7c0w2mgyzxq-zlib-1.3.1/lib/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0555, st_size=143048, ...}) = 0
+mmap(NULL, 262160, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_DENYWRITE, -1, 0) = 0x79d711f000
+mmap(0x79d7120000, 196624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x79d7120000
+munmap(0x79d711f000, 4096)              = 0
+munmap(0x79d7151000, 57360)             = 0
+mprotect(0x79d7139000, 90112, PROT_NONE) = 0
+mmap(0x79d714f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f000) = 0x79d714f000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/5h0aachb52mg1ijhfyq6k7c0w2mgyzxq-zlib-1.3.1/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/jay0hijxnnwlin4g06zk10jan5fqr358-pcre2-10.43/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aaq36r4a49fbsh0mbwbjizv2jrh4zqzm-glibc-2.39-52/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0555, st_size=70112, ...}) = 0
+mmap(NULL, 196624, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_DENYWRITE, -1, 0) = 0x79d70ef000
+mmap(0x79d70f0000, 131088, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x79d70f0000
+munmap(0x79d70ef000, 4096)              = 0
+munmap(0x79d7111000, 57360)             = 0
+mprotect(0x79d70f1000, 122880, PROT_NONE) = 0
+mmap(0x79d710f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x79d710f000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/5h0aachb52mg1ijhfyq6k7c0w2mgyzxq-zlib-1.3.1/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/jay0hijxnnwlin4g06zk10jan5fqr358-pcre2-10.43/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aaq36r4a49fbsh0mbwbjizv2jrh4zqzm-glibc-2.39-52/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/1l7gvxga9m6zh5r5db8jq8pxizlp93z6-gcc-13.2.0-lib/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0444, st_size=150128, ...}) = 0
+mmap(NULL, 262560, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_DENYWRITE, -1, 0) = 0x79d70af000
+mmap(0x79d70b0000, 197024, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x79d70b0000
+munmap(0x79d70af000, 4096)              = 0
+munmap(0x79d70e1000, 57760)             = 0
+mprotect(0x79d70c8000, 94208, PROT_NONE) = 0
+mmap(0x79d70df000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f000) = 0x79d70df000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/5h0aachb52mg1ijhfyq6k7c0w2mgyzxq-zlib-1.3.1/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/jay0hijxnnwlin4g06zk10jan5fqr358-pcre2-10.43/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aaq36r4a49fbsh0mbwbjizv2jrh4zqzm-glibc-2.39-52/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\360\306\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0555, st_size=2122360, ...}) = 0
+mmap(NULL, 1826688, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_DENYWRITE, -1, 0) = 0x79d6ef2000
+mmap(0x79d6f00000, 1761152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x79d6f00000
+munmap(0x79d6ef2000, 57344)             = 0
+munmap(0x79d70ae000, 8064)              = 0
+mprotect(0x79d7090000, 53248, PROT_NONE) = 0
+mmap(0x79d709d000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19d000) = 0x79d709d000
+mmap(0x79d70a2000, 49024, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x79d70a2000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x79d7205000
+set_tid_address(0x79d7205f50)           = 23003
+set_robust_list(0x79d7205f60, 24)       = 523300265824
+rseq(0x79d72065a0, 0x20, 0, 0xd428bc00) = 523300267424
+mprotect(0x79d709d000, 12288, PROT_READ) = 0
+mprotect(0x79d70df000, 4096, PROT_READ) = 0
+mprotect(0x79d710f000, 4096, PROT_READ) = 0
+mprotect(0x79d714f000, 4096, PROT_READ) = 0
+mprotect(0x79d71ff000, 4096, PROT_READ) = 0
+mprotect(0x76c000, 16384, PROT_READ)    = 0
+mprotect(0x3f0003e000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=9788*1024, rlim_max=RLIM64_INFINITY}) = 0
+openat(AT_FDCWD, "/dev/null", O_RDWR)   = 3
+close(3)                                = 0
+rt_sigprocmask(SIG_UNBLOCK, [PIPE], NULL, 8) = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_DFL, sa_mask=[PIPE], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+getrandom("\x11\x57\xc1\x79\xee\xb9\x5c\x78", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x7ab000
+brk(0x7cc000)                           = 0x7cc000
+openat(AT_FDCWD, "/nix/store/gcdrv6pw9by27dyrx8zysni10ag9a8pm-glibc-locales-2.39-52/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=229726112, ...}) = 0
+mmap(NULL, 229726112, PROT_READ, MAP_PRIVATE, 3, 0) = 0x79c93ea000
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/nix/store/4gjpp4hv6mx8g7srcgw7bba6pjn9arcz-git-2.44.2/share/locale", {st_mode=S_IFDIR|0555, st_size=3452, ...}, 0) = 0
+faccessat(AT_FDCWD, "/etc/gitconfig", R_OK) = -1 ENOENT (No such file or directory)
+faccessat(AT_FDCWD, "/data/data/com.termux.nix/files/home/.config/git/config", R_OK) = -1 ENOENT (No such file or directory)
+faccessat(AT_FDCWD, "/data/data/com.termux.nix/files/home/.gitconfig", R_OK) = 0
+openat(AT_FDCWD, "/data/data/com.termux.nix/files/home/.gitconfig", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=380, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0600, st_size=380, ...}) = 0
+read(3, "[user]\n\temail = h@solfunmeme.com"..., 4096) = 380
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+getcwd("/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs", 129) = 105
+getcwd("/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs", 129) = 105
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs", {st_mode=S_IFDIR|0755, st_size=8192, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/.git", {st_mode=S_IFREG|0644, st_size=88, ...}, 0) = 0
+openat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/.git", O_RDONLY) = 3
+read(3, "gitdir: ../../../../.git/modules"..., 88) = 88
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/../../../../.git/modules/source/github/meta-introspector/git-submodule-tools-rs/HEAD", {st_mode=S_IFREG|0600, st_size=32, ...}, AT_SYMLINK_NOFOLLOW) = 0
+openat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/../../../../.git/modules/source/github/meta-introspector/git-submodule-tools-rs/HEAD", O_RDONLY) = 3
+read(3, "ref: refs/heads/feature/prompts\n", 255) = 32
+read(3, "", 223)                        = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/../../../../.git/modules/source/github/meta-introspector/git-submodule-tools-rs/commondir", 0x7fdad69308, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+faccessat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/../../../../.git/modules/source/github/meta-introspector/git-submodule-tools-rs/objects", X_OK) = 0
+faccessat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/../../../../.git/modules/source/github/meta-introspector/git-submodule-tools-rs/refs", X_OK) = 0
+newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data", {st_mode=S_IFDIR|0771, st_size=94208, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix", {st_mode=S_IFDIR|0700, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files", {st_mode=S_IFDIR|0771, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home", {st_mode=S_IFDIR|0700, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2", {st_mode=S_IFDIR|0755, st_size=8192, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source", {st_mode=S_IFDIR|0755, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github", {st_mode=S_IFDIR|0755, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector", {st_mode=S_IFDIR|0755, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs", {st_mode=S_IFDIR|0755, st_size=8192, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/.git", {st_mode=S_IFDIR|0755, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/.git/modules", {st_mode=S_IFDIR|0755, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/.git/modules/source", {st_mode=S_IFDIR|0755, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/.git/modules/source/github", {st_mode=S_IFDIR|0755, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/.git/modules/source/github/meta-introspector", {st_mode=S_IFDIR|0755, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/.git/modules/source/github/meta-introspector/git-submodule-tools-rs", {st_mode=S_IFDIR|0755, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/.git", {st_mode=S_IFREG|0644, st_size=88, ...}, AT_SYMLINK_NOFOLLOW) = 0
+geteuid()                               = 10324
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs", {st_mode=S_IFDIR|0755, st_size=8192, ...}, AT_SYMLINK_NOFOLLOW) = 0
+geteuid()                               = 10324
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/.git/modules/source/github/meta-introspector/git-submodule-tools-rs", {st_mode=S_IFDIR|0755, st_size=3452, ...}, AT_SYMLINK_NOFOLLOW) = 0
+geteuid()                               = 10324
+newfstatat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/.git/modules/source/github/meta-introspector/git-submodule-tools-rs/commondir", 0x7fdad69558, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/.git/modules/source/github/meta-introspector/git-submodule-tools-rs/config", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1216, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1216, ...}) = 0
+read(3, "[core]\n\trepositoryformatversion "..., 4096) = 1216
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+faccessat(AT_FDCWD, "/etc/gitconfig", R_OK) = -1 ENOENT (No such file or directory)
+faccessat(AT_FDCWD, "/data/data/com.termux.nix/files/home/.config/git/config", R_OK) = -1 ENOENT (No such file or directory)
+faccessat(AT_FDCWD, "/data/data/com.termux.nix/files/home/.gitconfig", R_OK) = 0
+openat(AT_FDCWD, "/data/data/com.termux.nix/files/home/.gitconfig", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=380, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0600, st_size=380, ...}) = 0
+read(3, "[user]\n\temail = h@solfunmeme.com"..., 4096) = 380
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+faccessat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/.git/modules/source/github/meta-introspector/git-submodule-tools-rs/config", R_OK) = 0
+openat(AT_FDCWD, "/data/data/com.termux.nix/files/home/pick-up-nix2/.git/modules/source/github/meta-introspector/git-submodule-tools-rs/config", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1216, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1216, ...}) = 0
+read(3, "[core]\n\trepositoryformatversion "..., 4096) = 1216
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/nix/store/4gjpp4hv6mx8g7srcgw7bba6pjn9arcz-git-2.44.2/libexec/git-core/git-submodule", {st_mode=S_IFREG|0555, st_size=10745, ...}, 0) = 0
+pipe2([3, 4], 0)                        = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x79d7205f50) = 23020
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x5fdfd4, sa_mask=[INT], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGHUP, {sa_handler=0x5fdfd4, sa_mask=[HUP], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTERM, {sa_handler=0x5fdfd4, sa_mask=[TERM], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=0x5fdfd4, sa_mask=[QUIT], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPIPE, {sa_handler=0x5fdfd4, sa_mask=[PIPE], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[PIPE], sa_flags=SA_RESTART}, 8) = 0
+close(4)                                = 0
+read(3, "", 8)                          = 0
+close(3)                                = 0
+wait4(23020, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 23020
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=23020, si_uid=10324, si_status=0, si_utime=0, si_stime=2 /* 0.02 s */} ---
+exit_group(0)                           = ?
++++ exited with 0 +++
