@@ -487,3 +487,40 @@
 [submodule "nix/vendor/nix/cargo2nix"]
 	path = vendor/nix/cargo2nix
 	url = https://github.com/meta-introspector/cargo2nix.git
+[submodule "vendor/nix/solana/solana-nix"]
+	path = vendor/nix/solana/solana-nix
+	url = https://github.com/cideM/solana-nix
+[submodule "vendor/nix/solana/solana-flake"]
+	path = vendor/nix/solana/solana-flake
+	url = https://github.com/itsfarseen/solana-flake
+[submodule "vendor/nix/solana/solana-bridges"]
+	path = vendor/nix/solana/solana-bridges
+	url = https://github.com/obsidiansystems/solana-bridges
+[submodule "vendor/rust/platform-tools-agave-rust-solana"]
+	path = vendor/rust/platform-tools-agave-rust-solana
+	url = https://github.com/meta-introspector/platform-tools-agave-rust-solana
+	branch = feature/CRQ-016-nixify
+[submodule "vendor/nix/solana/arilotter-solana-flake"]
+	path = vendor/nix/solana/arilotter-solana-flake
+	url = https://github.com/arilotter/solana-flake
+[submodule "vendor/nix/solana/numtide-solana.nix"]
+	path = vendor/nix/solana/numtide-solana.nix
+	url = https://github.com/numtide/solana.nix
+[submodule "vendor/nix/solana/vincentberthier-solana"]
+	path = vendor/nix/solana/vincentberthier-solana
+	url = https://github.com/vincentberthier/solana
+[submodule "vendor/nix/solana/nasadorian-solflake"]
+	path = vendor/nix/solana/nasadorian-solflake
+	url = https://github.com/nasadorian/solflake
+[submodule "vendor/nix/solana/ZentriaMC-solana-nix"]
+	path = vendor/nix/solana/ZentriaMC-solana-nix
+	url = https://github.com/ZentriaMC/solana-nix
+[submodule "vendor/nix/sourmash"]
+	path = vendor/nix/sourmash
+	url = https://github.com/sourmash-bio/sourmash.git
+[submodule "vendor/nix/ardumont-veritas"]
+	path = vendor/nix/ardumont-veritas
+	url = https://github.com/meta-introspector/ardumont-veritas
+[submodule "vendor/nix/union"]
+	path = vendor/nix/union
+	url = https://github.com/unionlabs/union
