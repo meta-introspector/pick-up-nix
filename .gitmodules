@@ -7,7 +7,7 @@
  url = https://github.com/meta-introspector/gemini-cli
 
 [submodule "vendor/rust-index-guix"]
-	path = vendor/rust-index-guix
+	path = vendor/rust/rust-index-guix
 	url = https://github.com/meta-introspector/rust-index-guix
 [submodule ".github/actions/install-nix-action"]
 	path = .github/actions/install-nix-action
@@ -188,7 +188,7 @@
 	path = source/github/meta-introspector/hackathon
 	url = https://github.com/meta-introspector/hackathon
 [submodule "vendor/external/github-issues-export-rs"]
-	path = vendor/external/github-issues-export-rs
+	path = vendor/external/github/github-issues-export-rs
 	url = https://github.com/boxdot/github-issues-export-rs
 [submodule "source/github/meta-introspector/minizinc-introspector"]
 	path = source/github/meta-introspector/minizinc-introspector
@@ -329,7 +329,7 @@
 	path = source/github/meta-introspector/ai-ml-zk-ops
 	url = https://github.com/meta-introspector/ai-ml-zk-ops
 [submodule "vendor/nix/rust-overlay"]
-	path = vendor/nix/rust-overlay
+	path = vendor/rust/rust-overlay
 	url = https://github.com/meta-introspector/rust-overlay
 	; upstream = https://github.com/oxalica/rust-overlay
 	branch = feature/CRQ-016-nixify
@@ -485,7 +485,7 @@
 	path = vendor/hooks/git-hooks.nix
 	url = https://github.com/cachix/git-hooks.nix
 [submodule "nix/vendor/nix/cargo2nix"]
-	path = vendor/nix/cargo2nix
+	path = vendor/rust/cargo2nix
 	url = https://github.com/meta-introspector/cargo2nix.git
 [submodule "vendor/nix/solana/solana-nix"]
 	path = vendor/nix/solana/solana-nix
@@ -524,3 +524,24 @@
 [submodule "vendor/nix/union"]
 	path = vendor/nix/union
 	url = https://github.com/unionlabs/union
+[submodule "source/github/meta-introspector/rust-bootstrap-nix"]
+	path = source/github/meta-introspector/rust-bootstrap-nix
+	url = https://github.com/meta-introspector/rust-bootstrap-nix
+[submodule "vendor/rust/corepkgs-ekala-nix"]
+	path = vendor/rust/corepkgs-ekala-nix
+	url = https://github.com/meta-introspector/corepkgs-ekala-nix
+[submodule "vendor/rust/triton-os-nix"]
+	path = vendor/rust/triton-os-nix
+	url = https://github.com/meta-introspector/triton-os-nix
+[submodule "vendor/comms/matrix/matrix-commander"]
+	path = vendor/comms/matrix/matrix-commander
+	url = https://github.com/meta-introspector/matrix-commander
+[submodule "vendor/comms/matrix/matrix-commander-rs"]
+	path = vendor/comms/matrix/matrix-commander-rs
+	url = https://github.com/meta-introspector/matrix-commander-rs
+[submodule "vendor/external/oracle/terraform-provider-oci"]
+	path = vendor/external/oracle/terraform-provider-oci
+	url = https://github.com/meta-introspector/terraform-provider-oci
+[submodule "vendor/external/github/actions/cachix-action"]
+	path = vendor/external/github/actions/cachix-action
+	url = https://github.com/meta-introspector/cachix-action
