@@ -1,0 +1,18 @@
+# This is the Cargo.toml for the `enum-self` crate.
+# It defines the package metadata and its dependencies.
+
+[package]
+name = "enum-self"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# `serde` is used for serialization and deserialization of the enums,
+# which is useful for saving and loading the project structure.
+serde = { version = "1.0", features = ["derive"] }
+syn-wrapper = { path = "../wrappers/syn-wrapper" }
+
+[dev-dependencies]
+serde_json = "1.0"

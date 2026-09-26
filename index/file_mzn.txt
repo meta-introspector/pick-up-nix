@@ -1,0 +1,4 @@
+./vendor/nixpkgs/pkgs/development/tools/minizinc/simple-test/aust.mzn
+./vendor/nixpkgs/pkgs/development/tools/minizinc/simple-test/loan.mzn
+./vendor/nixpkgs/pkgs/development/tools/minizinc/simple-test/nqueens.mzn
+./minizinc_emoji_primes.mzn

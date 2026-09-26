@@ -1,0 +1,4 @@
+--- Your Tweet ---
+Unveiling a brilliant livestream setup! @introsp3ctor runs Nix-on-Droid on Android/Linux, streaming via RustDesk to OBS, then Restream.io to X/Rumble/Twitch. Crucially, #TikTokStudioLive displays my text output, using #Figlet banners for AI-driven video timestamping & indirect control. Genius!
+------------------
+Character count: 294 / 25000

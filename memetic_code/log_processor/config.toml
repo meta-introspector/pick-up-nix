@@ -1,0 +1,3 @@
+[paths]
+gemini_logs_dir = "/data/data/com.termux.nix/files/home/.gemini/tmp"
+asciinema_recordings_dir = "/data/data/com.termux.nix/files/home/logs/gemini" # Placeholder, user needs to provide accessible path

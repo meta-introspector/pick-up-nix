@@ -1,0 +1,55 @@
+++ date
++ echo 'Starting submodule update at Tue Sep 16 03:33:32 PM UTC 2025'
+Starting submodule update at Tue Sep 16 03:33:32 PM UTC 2025
++ echo 'Updating all submodules...'
+Updating all submodules...
++ timeout 600 strace -o /data/data/com.termux.nix/files/home/pick-up-nix2/task/ainix/logs/update_all_submodules_strace.log git submodule update --init --recursive --force
+Submodule path 'vendor/cargo_metadata': checked out 'f0df5d0d220c0625cfa1a624ae7cc3d3ac25e31f'
+Submodule path 'vendor/gitoxide': checked out 'fa1026ef79ecd5b77161f1b93089c5f5a7ea0ec6'
+Submodule path 'vendor/meta-introspector/meta-meme': checked out 'a9ab89ff3cf5847d54135d28cf03e4ebf789a6e0'
+Submodule path 'vendor/meta-introspector/meta-meme.wiki': checked out 'c5ca5fb4782458ca5d3d550acb8d25733cff6263'
+Submodule path 'vendor/meta-introspector/mkAIDerivation': checked out 'd79de32084e11e204bbe671a0005d40041a01223'
+Submodule path 'vendor/octocrab': checked out '1ca87c2b0a0bfcf4fd5f7fd14f29f65883b225f0'
+Submodule path 'vendor/zola': checked out '7d29fc51fd3fbdbad5d635b40118cc4f1469f615'
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/SublimeTextLinkerSyntax'...
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/awk-sublime'...
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/elixir-sublime-syntax'...
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/protobuf-syntax-highlighting'...
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/sublime-clojure'...
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/sublime-fish'...
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/sublime-glsl'...
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/sublime-jinja2'...
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/sublime-purescript-syntax'...
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/sublime-zig-language'...
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/sublime_toml_highlighting'...
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/sublimetext-fsharp'...
+Cloning into '/data/data/com.termux.nix/files/home/pick-up-nix2/source/github/meta-introspector/git-submodule-tools-rs/vendor/zola/components/config/sublime/syntaxes/extra/vue-syntax-highlight'...
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/Packages': checked out '36acf7700f4b85c008bdd45b9f0db0e8b9f0e1ed'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/Docker.tmbundle': checked out 'c001fb280561d7c16f0f2837d76af493cf6c3bf8'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/GDScript-sublime': checked out '96f5dcf29728aa987123321e2544330eed991a3e'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/GraphQL-SublimeText3': checked out 'acc1dfe30dde5091069afd6070b79a68eb1c229a'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/Julia-sublime': checked out '3366b10be91aaab7a61ae0bc0a5af5cc375e58d1'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/LESS-sublime': checked out 'd076a4dd416bcdb155bacf90cda72f7bf1c8abbb'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/Sublime-CMakeLists': checked out '2560a080b3b7dcdb05e17ee85b2171776e84b8c1'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/Sublime-GenericConfig': checked out '5761ac0421601bf0c2d6419f6adc4b4798ca7ab3'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/SublimeElmLanguageSupport': checked out 'e266d279c8074aa342f106554cfa87ebe839a782'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/SublimeFortran': checked out 'dcf4f24f1cecd9eebf6b1eb388e4f5db671a7b08'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/SublimeSass': checked out 'c0830cb89422c98a0b9b327135b8477dc62ef350'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/SublimeTextLinkerSyntax': checked out '041d15667eca429afd4ff3df3b8f8617a66fc410'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/awk-sublime': checked out 'e23926eca1b6a0bd0b572b7191aead9f77c748d1'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/elixir-sublime-syntax': checked out '4fb01891dd17434dde42887bc821917a30f4e010'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/protobuf-syntax-highlighting': checked out '726e21d74dac23cbb036f2fbbd626decdc954060'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/sublime-clojure': checked out 'c781793d87e0ebfe30ff9d162779abfe3c8a8a91'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/sublime-fish': checked out '2c254cc8512d53b7af306e4379fc9744ee5b4aee'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/sublime-glsl': checked out '4cd4acfffc7f2ab4f154b6ebfbbe0bb71825eb89'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/sublime-jinja2': checked out '45355633d17ee562481ca1d2ad0e3502c238f58a'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/sublime-purescript-syntax': checked out '5acebc18503697be09df047591964e68e80fcf8e'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/sublime-zig-language': checked out '9d2083815742ed703b07a25ad3573bec1214d554'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/sublime_toml_highlighting': checked out '0f14b7caf3c775a5d18551a9563a9debdb10c9a9'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/sublimetext-fsharp': checked out 'c18616d6bd55b188672276da837837070170d967'
+Submodule path 'vendor/zola/components/config/sublime/syntaxes/extra/vue-syntax-highlight': checked out '2a3e89e415f49f5fbe8bf8bf42e45f8f78ccf642'
++ echo 'All submodules updated successfully.'
+All submodules updated successfully.
+++ date
++ echo 'Finishing submodule update at Tue Sep 16 03:33:54 PM UTC 2025'
+Finishing submodule update at Tue Sep 16 03:33:54 PM UTC 2025

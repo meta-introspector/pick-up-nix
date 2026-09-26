@@ -4,6 +4,8 @@
 
 The goal of this project is to create a system for producing cryptographically verifiable digital assets that represent software components. These assets, analogous to Non-Fungible Tokens (NFTs), will provide a complete, auditable history from source code to binary execution, creating a "proof-of-integrity" and a "proof-of-execution."
 
+Crucially, the Gödel numbering system for this project will not rely on a single, fixed number, but rather on a function that dynamically finds a suitable number, effectively preparing the arithmetization of the program for the proof system.
+
 ## 2.0 The Digital Asset ("Smart Contract")
 
 Each version-controlled repository (e.g., a git submodule) is an instance of a "smart contract" with the following properties:

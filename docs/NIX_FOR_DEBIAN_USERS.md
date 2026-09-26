@@ -86,3 +86,24 @@ nix-env --rollback
 This will switch you back to the previous generation, effectively undoing the last `nix-on-droid switch`.
 
 We hope this guide helps you get started with Nix-on-Droid!
+
+## 8. Essential Diagnostic Tools for Android
+
+For effective debugging and system analysis on your Android device, a set of essential diagnostic tools has been integrated into the Nix-on-Droid flake configuration. These tools provide deep insights into system behavior, process execution, and network activity.
+
+### 8.1 Included Tools
+
+The following tools are now available in your Nix-on-Droid environment:
+
+*   **`strace`**: Traces system calls and signals. Invaluable for understanding how programs interact with the kernel.
+*   **`ltrace`**: Traces library calls made by dynamically linked programs. Useful for debugging issues related to shared libraries.
+*   **`htop`**: An interactive process viewer, offering a more user-friendly and feature-rich alternative to `top`.
+*   **`iotop`**: Monitors disk I/O usage by processes or threads. Helps identify applications that are heavily using the disk.
+*   **`iftop`**: Displays bandwidth usage on an interface. Useful for monitoring network activity.
+*   **`nettools`**: A collection of fundamental networking utilities, including `ifconfig`, `netstat`, `route`, etc.
+*   **`procps`**: A suite of utilities for controlling and monitoring processes, including `top`, `ps`, `free`, `uptime`, and `kill`.
+
+### 8.2 How to Access
+
+These tools are automatically included in your Android environment once you rebuild your Nix-on-Droid configuration after the flake update. You can then simply run them from your terminal.
+

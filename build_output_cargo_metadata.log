@@ -1,0 +1,45 @@
+warning: Git tree '/data/data/com.termux.nix/files/home/pick-up-nix2' is dirty
+warning: input 'rust-toolchain' has an override for a non-existent input 'nixpkgs'
+warning: updating lock file '/data/data/com.termux.nix/files/home/pick-up-nix2/flake.lock':
+• Added input 'home-manager':
+    'github:nix-community/home-manager/5820376beb804de9acf07debaaff1ac84728b708' (2025-09-16)
+• Added input 'home-manager/nixpkgs':
+    follows 'nixpkgs'
+• Added input 'nix-on-droid':
+    'github:nix-community/nix-on-droid/f3d3b8294039f2f9a8fb7ea82c320f29c6b0fe25' (2024-07-07)
+• Added input 'nix-on-droid/home-manager':
+    'github:nix-community/home-manager/4de84265d7ec7634a69ba75028696d74de9a44a7' (2024-03-03)
+• Added input 'nix-on-droid/home-manager/nixpkgs':
+    follows 'nix-on-droid/nixpkgs'
+• Added input 'nix-on-droid/nix-formatter-pack':
+    'github:Gerschtli/nix-formatter-pack/2de39dedd79aab14c01b9e2934842051a160ffa5' (2024-01-14)
+• Added input 'nix-on-droid/nix-formatter-pack/nixpkgs':
+    follows 'nix-on-droid/nixpkgs'
+• Added input 'nix-on-droid/nix-formatter-pack/nmd':
+    'gitlab:rycee/nmd/b75d312b4f33bd3294cd8ae5c2ca8c6da2afc169' (2022-10-19)
+• Added input 'nix-on-droid/nix-formatter-pack/nmt':
+    'gitlab:rycee/nmt/d83601002c99b78c89ea80e5e6ba21addcfe12ae' (2022-03-23)
+• Added input 'nix-on-droid/nixpkgs':
+    follows 'nixpkgs'
+• Added input 'nix-on-droid/nixpkgs-docs':
+    'github:NixOS/nixpkgs/9a333eaa80901efe01df07eade2c16d183761fa3' (2024-01-22)
+• Added input 'nix-on-droid/nixpkgs-for-bootstrap':
+    'github:NixOS/nixpkgs/49ee0e94463abada1de470c9c07bfc12b36dcf40' (2024-07-06)
+• Added input 'nix-on-droid/nmd':
+    'sourcehut:~rycee/nmd/66d9334933119c36f91a78d565c152a4fdc8d3d3' (2024-01-12)
+• Added input 'nix-on-droid/nmd/nixpkgs':
+    follows 'nix-on-droid/nixpkgs-docs'
+• Added input 'nix-on-droid/nmd/scss-reset':
+    'github:andreymatin/scss-reset/0cf50e27a4e95e9bb5b1715eedf9c54dee1a5a91' (2021-09-12)
+• Added input 'nixpkgs-lint-src':
+    'path:/data/data/com.termux.nix/files/home/pick-up-nix/vendor/nix/nixpkgs-lint?lastModified=1757977851&narHash=sha256-wIvZ9r5eJjDWjqZpQa6dzjhqyEASrFeuM2eEYM%2BhOM8%3D' (2025-09-15)
+• Added input 'nixpkgs-unstable':
+    'github:NixOS/nixpkgs/93b1ca689db2d45504a9db2fba906547bd082029' (2025-09-16)
+• Added input 'nixtract-src':
+    'path:/data/data/com.termux.nix/files/home/pick-up-nix/vendor/nix/nixtract?lastModified=0&narHash=sha256-uG8qFIhDMZMd9RvT%2BXWc0BolWovxblVAu91pcK3hXVw%3D' (1970-01-01)
+• Added input 'rust-toolchain':
+    'github:NixOS/nixpkgs/c23193b943c6c689d70ee98ce3128239ed9e32d1' (2025-09-13)
+• Added input 'streamofrandom':
+    'path:/data/data/com.termux.nix/files/home/pick-up-nix/source/github/meta-introspector/streamofrandom?lastModified=1757887159&narHash=sha256-lmnneWAkuWl6nRbKSZpkmZRmilPNrPblFMQF3LGQHHU%3D' (2025-09-14)
+warning: Git tree '/data/data/com.termux.nix/files/home/pick-up-nix2' is dirty
+error: flake 'git+file:///data/data/com.termux.nix/files/home/pick-up-nix2' does not provide attribute 'packages.aarch64-linux.cargo_metadata', 'legacyPackages.aarch64-linux.cargo_metadata' or 'cargo_metadata'

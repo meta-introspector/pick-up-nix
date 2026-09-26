@@ -6,3 +6,19 @@ cd pick-up-nix
 ./dwim.sh
 
 
+* ideas
+
+1. For every file, module, function, type, create a recursive rust enum to label all of it.
+   this assigns a unique number to each composable type indirectly via the enum system.
+1.2. search those enums in rust.
+   write code to reason about those enums.
+1.3. yaml or lisp or json form
+   convert that to a jq query.
+1.4.
+   create a nix like system to checkout all the code you need in a small workspace, start emacs and gemini in there
+   it has all the tools needed in one place.
+
+   create multiple layers of abstract from the base descriptions.
+   lift those into minizinc/lean4 for proof.
+
+   each feature is layered on top with a new nix derivation

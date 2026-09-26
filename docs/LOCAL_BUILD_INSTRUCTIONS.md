@@ -50,3 +50,29 @@ nix build .#nixOnDroidConfigurations.android.config.system.build.toplevel --syst
 nix build .#nixosConfigurations.desktop.config.system.build.toplevel
     ```
     *Note: This command is expected to fail due to missing `fileSystems` and `boot.loader.grub.devices` definitions, as discussed previously.*
+
+### 5. Building and Running the Log Processor
+
+The `log_processor` is a Rust-based tool designed to analyze Gemini logs and Asciinema recordings.
+
+#### 5.1 Building the Log Processor
+
+To build the `log_processor`, navigate to the project root and execute the following command:
+
+```bash
+cargo build -p log_processor
+```
+
+*   **Purpose:** This command compiles the `log_processor` Rust project, creating an executable in `target/debug/log_processor`.
+
+#### 5.2 Running the Log Processor
+
+The `log_processor` can be executed using the `run_log_processor.sh` script located in the project root. This script automatically passes the correct path to the `config.toml` file.
+
+```bash
+./run_log_processor.sh
+```
+
+*   **Purpose:** This script will list all files within the configured Gemini log and Asciinema recording directories, along with their modification timestamps.
+
+**Important Note:** The `log_processor` relies on the `config.toml` file located at `memetic_code/log_processor/config.toml`. Ensure that the paths specified within this `config.toml` for `gemini_logs_dir` and `asciinema_recordings_dir` are correct and accessible from your project's workspace. If these paths are incorrect or inaccessible, the `log_processor` will report "No such file or directory" errors.
